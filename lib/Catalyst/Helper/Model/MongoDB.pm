@@ -1,10 +1,6 @@
 package Catalyst::Helper::Model::MongoDB;
-BEGIN {
-  $Catalyst::Helper::Model::MongoDB::AUTHORITY = 'cpan:GETTY';
-}
-{
-  $Catalyst::Helper::Model::MongoDB::VERSION = '0.12';
-}
+our $AUTHORITY = 'cpan:GETTY';
+$Catalyst::Helper::Model::MongoDB::VERSION = '0.13';
 # ABSTRACT: Helper for MongoDB models
 use strict;
 use warnings;
@@ -41,7 +37,7 @@ Catalyst::Helper::Model::MongoDB - Helper for MongoDB models
 
 =head1 VERSION
 
-version 0.12
+version 0.13
 
 =head1 SYNOPSIS
 
@@ -68,15 +64,6 @@ Makes tests.
 IRC
 
   Join #catalyst on irc.perl.org and ask for Getty.
-
-Repository
-
-  http://github.com/Getty/p5-catalyst-model-mongodb
-  Pull request and additional contributors are welcome
-
-Issue Tracker
-
-  http://github.com/Getty/p5-catalyst-model-mongodb/issues
 
 =head1 AUTHOR
 
